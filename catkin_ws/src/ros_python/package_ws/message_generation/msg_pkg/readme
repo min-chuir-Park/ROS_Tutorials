@@ -1,0 +1,5 @@
+in order to use msg_pkg2 message
+i have to add msg_pkg2 to find_package,catkin_package in the Cmakelists.txt
+
+and add msg_pkg2 to build_depend and exec_depend in the package.xml
+

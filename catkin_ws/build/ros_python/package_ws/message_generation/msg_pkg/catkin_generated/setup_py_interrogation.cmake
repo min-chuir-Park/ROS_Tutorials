@@ -1,0 +1,6 @@
+set(msg_pkg_SETUP_PY_VERSION "0.0.0")
+set(msg_pkg_SETUP_PY_SCRIPTS "")
+set(msg_pkg_SETUP_PY_PACKAGES "msg_pkg")
+set(msg_pkg_SETUP_PY_PACKAGE_DIRS "src/msg_pkg")
+set(msg_pkg_SETUP_PY_MODULES "")
+set(msg_pkg_SETUP_PY_MODULE_DIRS "")

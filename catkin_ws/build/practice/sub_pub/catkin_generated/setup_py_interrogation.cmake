@@ -1,0 +1,6 @@
+set(sub_pub_SETUP_PY_VERSION "0.0.0")
+set(sub_pub_SETUP_PY_SCRIPTS "")
+set(sub_pub_SETUP_PY_PACKAGES "sub_pub")
+set(sub_pub_SETUP_PY_PACKAGE_DIRS "src/sub_pub")
+set(sub_pub_SETUP_PY_MODULES "")
+set(sub_pub_SETUP_PY_MODULE_DIRS "")

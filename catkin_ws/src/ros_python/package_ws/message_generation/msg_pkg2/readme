@@ -1,0 +1,15 @@
+just make message package
+
+so add message_generation in the find_package at CmakeList.txt
+and add message_generation in the build_depend at package.xml
+
+
+so add message_runtime in the catkin_package at Cmakelist.txt
+and add message_runtime in the exec_depend at package.xml
+
+
+and add add_message_files ~~.msg
+
+
+
+

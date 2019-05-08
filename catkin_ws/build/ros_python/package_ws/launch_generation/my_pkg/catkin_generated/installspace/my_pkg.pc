@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ROS_Tutorials/catkin_ws/install
+
+Name: my_pkg
+Description: Description of my_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/ROS_Tutorials/catkin_ws/install/lib 
+Requires: roscpp rospy std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ROS_Tutorials/catkin_ws/devel
+
+Name: msg_pkg
+Description: Description of msg_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib 
+Requires: rospy std_msgs message_runtime msg_pkg2

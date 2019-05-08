@@ -1,0 +1,2 @@
+ros_python/function_ws/sub_pub:ros_python/package_ws/launch_generation/my_pkg:ros_python/package_ws/launch_generation/my_pkg2:ros_python/package_ws/message_generation/msg_pkg:ros_python/package_ws/message_generation/msg_pkg2
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/ROS_Tutorials/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/ROS_Tutorials/catkin_ws/install -G Unix Makefiles

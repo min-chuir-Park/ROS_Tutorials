@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/ROS_Tutorials/catkin_ws/install/setup.sh

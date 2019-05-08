@@ -1,0 +1,2 @@
+set(msg_pkg2_MESSAGE_FILES "/home/nvidia/catkin_ws/src/msg_pkg2/msg/MABX.msg")
+set(msg_pkg2_SERVICE_FILES "")
