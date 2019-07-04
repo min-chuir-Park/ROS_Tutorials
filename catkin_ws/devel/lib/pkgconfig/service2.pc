@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ROS_Tutorials/catkin_ws/devel
+
+Name: service2
+Description: Description of service2
+Version: 0.0.0
+Cflags: -I/home/nvidia/ROS_Tutorials/catkin_ws/devel/include
+Libs: -L/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib 
+Requires: rospy std_msgs geometry_msgs message_runtime

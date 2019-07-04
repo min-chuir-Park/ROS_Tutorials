@@ -247,17 +247,29 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
+//Name of the computer/site where compile is being run
+SITE:STRING=nvidia
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
 //LSB Distrib - codename tag
 UBUNTU_XENIAL:BOOL=TRUE
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/kinetic/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/kinetic/share/diagnostic_msgs/cmake
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/kinetic/share/gencpp/cmake
@@ -277,8 +289,26 @@ gennodejs_DIR:PATH=/opt/ros/kinetic/share/gennodejs/cmake
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/kinetic/share/genpy/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
+
+//Value Computed by CMake
+integration_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/integration_ws
+
+//Value Computed by CMake
+integration_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/integration_ws
+
+//Value Computed by CMake
+learning_tf_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/learning_tf
+
+//Value Computed by CMake
+learning_tf_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/learning_tf
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for message_genEration.
 message_genEration_DIR:PATH=message_genEration_DIR-NOTFOUND
@@ -306,6 +336,12 @@ msg_pkg_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/
 
 //Value Computed by CMake
 msg_pkg_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/message_generation/msg_pkg
+
+//Value Computed by CMake
+multimaster_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/function_ws/multimaster
+
+//Value Computed by CMake
+multimaster_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_c++/function_ws/multimaster
 
 //Value Computed by CMake
 my_pkg2_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2
@@ -343,6 +379,9 @@ roscpp_serialization_DIR:PATH=/opt/ros/kinetic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/kinetic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/kinetic/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/kinetic/share/rosgraph_msgs/cmake
 
@@ -351,6 +390,21 @@ rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
+
+//Value Computed by CMake
+service2_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/service2
+
+//Value Computed by CMake
+service2_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/service2
+
+//Value Computed by CMake
+service_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/service
+
+//Value Computed by CMake
+service_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/service
 
 //Value Computed by CMake
 srv_sub_pub_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/srv_sub_pub
@@ -361,11 +415,44 @@ srv_sub_pub_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_pytho
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/kinetic/share/std_srvs/cmake
+
 //Value Computed by CMake
 sub_pub_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/sub_pub
 
 //Value Computed by CMake
 sub_pub_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/sub_pub
+
+//Value Computed by CMake
+subpub2_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/function_ws/subpub2
+
+//Value Computed by CMake
+subpub2_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_c++/function_ws/subpub2
+
+//Value Computed by CMake
+subpub_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/function_ws/subpub
+
+//Value Computed by CMake
+subpub_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_c++/function_ws/subpub
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/kinetic/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/kinetic/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/kinetic/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/kinetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -472,7 +559,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

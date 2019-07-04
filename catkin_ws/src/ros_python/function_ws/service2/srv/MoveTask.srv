@@ -1,0 +1,6 @@
+uint32 id
+geometry_msgs/Pose destination
+geometry_msgs/Point[] way_points
+geometry_msgs/Polygon boundary
+---
+bool result

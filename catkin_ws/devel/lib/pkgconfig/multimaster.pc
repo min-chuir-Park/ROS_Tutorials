@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ROS_Tutorials/catkin_ws/devel
+
+Name: multimaster
+Description: Description of multimaster
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib 
+Requires: 

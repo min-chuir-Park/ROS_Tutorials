@@ -21,7 +21,7 @@ if __name__ == '__main__':
         debug_pointcloud = PointCloud()
         debug_pointcloud.header = std_msgs.msg.Header()
         debug_pointcloud.header.stamp = rospy.Time.now()
-        debug_pointcloud.header.frame_id = "cs_ground"
+        debug_pointcloud.header.frame_id = "map"
 
         number_of_pixels = 628
         # create an empty list of correct size
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 #        for p in xrange(0, number_of_pixels):
 #            debug_pointcloud.points[p] = Point(p, 0, 0)
        	for i in range(number_of_pixels):
-		debug_pointcloud.points[i]=Point(i,100*math.sin(i/10.),0)
+		debug_pointcloud.points[i]=Point(i,20*math.sin(i/10.),0)
         cloud_pub.publish(debug_pointcloud)
         rate.sleep()
 

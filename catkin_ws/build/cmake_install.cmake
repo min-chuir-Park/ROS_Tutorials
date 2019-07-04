@@ -68,38 +68,47 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nvidia/ROS_Tutorials/catkin_ws/install/setup.bash")
+   "/home/nvidia/ROS_Tutorials/catkin_ws/install/setup.bash;/home/nvidia/ROS_Tutorials/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nvidia/ROS_Tutorials/catkin_ws/install" TYPE FILE FILES "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/nvidia/ROS_Tutorials/catkin_ws/install" TYPE FILE FILES
+    "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nvidia/ROS_Tutorials/catkin_ws/install/setup.sh")
+   "/home/nvidia/ROS_Tutorials/catkin_ws/install/setup.sh;/home/nvidia/ROS_Tutorials/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nvidia/ROS_Tutorials/catkin_ws/install" TYPE FILE FILES "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/nvidia/ROS_Tutorials/catkin_ws/install" TYPE FILE FILES
+    "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nvidia/ROS_Tutorials/catkin_ws/install/setup.zsh")
+   "/home/nvidia/ROS_Tutorials/catkin_ws/install/setup.zsh;/home/nvidia/ROS_Tutorials/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nvidia/ROS_Tutorials/catkin_ws/install" TYPE FILE FILES "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/nvidia/ROS_Tutorials/catkin_ws/install" TYPE FILE FILES
+    "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -116,11 +125,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/integration_ws/cmake_install.cmake")
   include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/message_generation/msg_pkg2/cmake_install.cmake")
   include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/message_generation/msg_pkg/cmake_install.cmake")
   include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg/cmake_install.cmake")
   include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2/cmake_install.cmake")
+  include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/service/cmake_install.cmake")
+  include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/service2/cmake_install.cmake")
+  include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/srv_sub_pub/cmake_install.cmake")
   include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/sub_pub/cmake_install.cmake")
+  include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/function_ws/multimaster/cmake_install.cmake")
+  include("/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/learning_tf/cmake_install.cmake")
 
 endif()
 

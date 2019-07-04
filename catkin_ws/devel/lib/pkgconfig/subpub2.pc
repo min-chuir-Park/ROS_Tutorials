@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ROS_Tutorials/catkin_ws/devel
+
+Name: subpub2
+Description: Description of subpub2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib -lsubpub
+Requires: roscpp std_msgs
