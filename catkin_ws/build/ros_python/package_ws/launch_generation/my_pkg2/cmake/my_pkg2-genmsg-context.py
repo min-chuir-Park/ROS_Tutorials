@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg"
+messages_str = "/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg"
 services_str = ""
 pkg_name = "my_pkg2"
 dependencies_str = "std_msgs"

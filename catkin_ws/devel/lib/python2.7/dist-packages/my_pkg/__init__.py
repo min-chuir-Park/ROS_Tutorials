@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg/src".split(";")
+__extended_path = "/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/subpub_stdmsg_01/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

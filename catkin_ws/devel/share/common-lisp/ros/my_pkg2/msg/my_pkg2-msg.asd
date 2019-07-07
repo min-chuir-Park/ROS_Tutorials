@@ -4,6 +4,6 @@
 (defsystem "my_pkg2-msg"
   :depends-on (:roslisp-msg-protocol :roslisp-utils )
   :components ((:file "_package")
-    (:file "MABX" :depends-on ("_package_MABX"))
-    (:file "_package_MABX" :depends-on ("_package"))
+    (:file "Message" :depends-on ("_package_Message"))
+    (:file "_package_Message" :depends-on ("_package"))
   ))

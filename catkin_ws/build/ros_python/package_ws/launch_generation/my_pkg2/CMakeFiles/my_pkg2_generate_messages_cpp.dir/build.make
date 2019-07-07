@@ -53,17 +53,17 @@ CMAKE_BINARY_DIR = /home/nvidia/ROS_Tutorials/catkin_ws/build
 # Include the progress variables for this target.
 include ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_cpp.dir/progress.make
 
-ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_cpp: /home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/MABX.h
+ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_cpp: /home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/Message.h
 
 
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/MABX.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/MABX.h: /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/MABX.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from my_pkg2/MABX.msg"
-	cd /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2 && /home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg -Imy_pkg2:/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_pkg2 -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2 -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/Message.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/Message.h: /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/Message.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from my_pkg2/Message.msg"
+	cd /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2 && /home/nvidia/ROS_Tutorials/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg -Imy_pkg2:/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_pkg2 -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2 -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 my_pkg2_generate_messages_cpp: ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_cpp
-my_pkg2_generate_messages_cpp: /home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/MABX.h
+my_pkg2_generate_messages_cpp: /home/nvidia/ROS_Tutorials/catkin_ws/devel/include/my_pkg2/Message.h
 my_pkg2_generate_messages_cpp: ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_cpp.dir/build.make
 
 .PHONY : my_pkg2_generate_messages_cpp

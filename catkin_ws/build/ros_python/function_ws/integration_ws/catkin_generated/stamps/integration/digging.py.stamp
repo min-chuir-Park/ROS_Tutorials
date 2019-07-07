@@ -20,18 +20,14 @@ class __sub():
 
 	def callback(self,data):
 		if data.data == 3:
-			time.sleep(1) 
 			self.pub.publish(data.data)
 		if data.data == 5:
-			time.sleep(1)  
 			self.pub.publish(data.data)
 		if data.data == 7:
-			time.sleep(1) 
 			self.pub.publish(data.data)
 		if data.data == 9:
-			time.sleep(1) 
 			self.pub.publish(data.data)
-		print(data.data)
+		#print(data.data)
 
 if __name__ =="__main__":
 	__sub()._pub()

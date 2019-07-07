@@ -53,16 +53,16 @@ CMAKE_BINARY_DIR = /home/nvidia/ROS_Tutorials/catkin_ws/build
 # Include the progress variables for this target.
 include ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_nodejs.dir/progress.make
 
-ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_nodejs: /home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/MABX.js
+ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_nodejs: /home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/Message.js
 
 
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/MABX.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/MABX.js: /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from my_pkg2/MABX.msg"
-	cd /home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2 && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg -Imy_pkg2:/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_pkg2 -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/Message.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/Message.js: /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from my_pkg2/Message.msg"
+	cd /home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2 && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg -Imy_pkg2:/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_pkg2 -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg
 
 my_pkg2_generate_messages_nodejs: ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_nodejs
-my_pkg2_generate_messages_nodejs: /home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/MABX.js
+my_pkg2_generate_messages_nodejs: /home/nvidia/ROS_Tutorials/catkin_ws/devel/share/gennodejs/ros/my_pkg2/msg/Message.js
 my_pkg2_generate_messages_nodejs: ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_nodejs.dir/build.make
 
 .PHONY : my_pkg2_generate_messages_nodejs

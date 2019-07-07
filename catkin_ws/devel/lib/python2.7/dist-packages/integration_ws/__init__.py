@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/integration_ws/src".split(";")
+__extended_path = "/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/point_cloud/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

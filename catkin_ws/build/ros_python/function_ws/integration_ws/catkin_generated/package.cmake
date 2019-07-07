@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "integration")
 set(integration_VERSION "0.0.0")
-set(integration_MAINTAINER "nvidia <nvidia@todo.todo>")
+set(integration_MAINTAINER "mincheol.p <dhrmach45679@naver.com>")
 set(integration_PACKAGE_FORMAT "2")
 set(integration_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(integration_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")

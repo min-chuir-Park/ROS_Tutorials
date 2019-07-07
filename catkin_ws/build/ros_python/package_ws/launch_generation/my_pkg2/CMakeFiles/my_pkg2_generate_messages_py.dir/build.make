@@ -53,22 +53,22 @@ CMAKE_BINARY_DIR = /home/nvidia/ROS_Tutorials/catkin_ws/build
 # Include the progress variables for this target.
 include ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_py.dir/progress.make
 
-ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_MABX.py
+ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_Message.py
 ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/__init__.py
 
 
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_MABX.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_MABX.py: /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG my_pkg2/MABX"
-	cd /home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2 && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/MABX.msg -Imy_pkg2:/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_pkg2 -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_Message.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_Message.py: /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG my_pkg2/Message"
+	cd /home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2 && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg/Message.msg -Imy_pkg2:/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/my_pkg2/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p my_pkg2 -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg
 
 /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/__init__.py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_MABX.py
+/home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/__init__.py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_Message.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/ROS_Tutorials/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for my_pkg2"
 	cd /home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/my_pkg2 && ../../../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg --initpy
 
 my_pkg2_generate_messages_py: ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_py
-my_pkg2_generate_messages_py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_MABX.py
+my_pkg2_generate_messages_py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/_Message.py
 my_pkg2_generate_messages_py: /home/nvidia/ROS_Tutorials/catkin_ws/devel/lib/python2.7/dist-packages/my_pkg2/msg/__init__.py
 my_pkg2_generate_messages_py: ros_python/package_ws/launch_generation/my_pkg2/CMakeFiles/my_pkg2_generate_messages_py.dir/build.make
 

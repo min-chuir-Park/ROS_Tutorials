@@ -1,5 +1,5 @@
 import rospy
-from msg_pkg2 import MABX
+from msg_pkg2 import Message
 
 class _publish():
 	def __init__(self):

@@ -3,7 +3,7 @@
   <name>my_pkg2</name>
   <version>0.0.0</version>
   <description>The my_pkg package</description>
-  <maintainer email="nvidia@todo.todo">nvidia</maintainer>
+  <maintainer email="dhrmach45679@naver.com">mincheol.p</maintainer>
   <license>TODO</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>message_generation</build_depend>

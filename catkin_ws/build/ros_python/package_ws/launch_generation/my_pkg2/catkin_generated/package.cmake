@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "my_pkg2")
 set(my_pkg2_VERSION "0.0.0")
-set(my_pkg2_MAINTAINER "nvidia <nvidia@todo.todo>")
+set(my_pkg2_MAINTAINER "mincheol.p <dhrmach45679@naver.com>")
 set(my_pkg2_PACKAGE_FORMAT "2")
 set(my_pkg2_BUILD_DEPENDS "message_generation" "rospy" "std_msgs")
 set(my_pkg2_BUILD_EXPORT_DEPENDS )

@@ -1,0 +1,6 @@
+set(01_subpub_stdmsg_SETUP_PY_VERSION "0.0.0")
+set(01_subpub_stdmsg_SETUP_PY_SCRIPTS "")
+set(01_subpub_stdmsg_SETUP_PY_PACKAGES "my_pkg")
+set(01_subpub_stdmsg_SETUP_PY_PACKAGE_DIRS "src/my_pkg")
+set(01_subpub_stdmsg_SETUP_PY_MODULES "")
+set(01_subpub_stdmsg_SETUP_PY_MODULE_DIRS "")

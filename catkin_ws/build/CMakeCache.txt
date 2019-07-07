@@ -20,6 +20,12 @@
 //Value Computed by CMake
 001_talker_listener_SOURCE_DIR:STATIC=/home/nvidia/catkin_ws/src/practice/001_talker_listener
 
+//Value Computed by CMake
+01_subpub_stdmsg_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/01_subpub_stdmsg
+
+//Value Computed by CMake
+01_subpub_stdmsg_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/01_subpub_stdmsg
+
 //Build dynamically-linked binaries
 BUILD_SHARED_LIBS:BOOL=ON
 
@@ -256,6 +262,12 @@ UBUNTU:BOOL=TRUE
 //LSB Distrib - codename tag
 UBUNTU_XENIAL:BOOL=TRUE
 
+//Value Computed by CMake
+_01_subpub_stdmsg_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/_01_subpub_stdmsg
+
+//Value Computed by CMake
+_01_subpub_stdmsg_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/_01_subpub_stdmsg
+
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/kinetic/share/actionlib/cmake
 
@@ -367,6 +379,18 @@ new_ws_BINARY_DIR:STATIC=/home/nvidia/catkin_ws/build/practice/new_ws
 //Value Computed by CMake
 new_ws_SOURCE_DIR:STATIC=/home/nvidia/catkin_ws/src/practice/new_ws
 
+//Value Computed by CMake
+point_cloud_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/function_ws/point_cloud
+
+//Value Computed by CMake
+point_cloud_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/function_ws/point_cloud
+
+//Value Computed by CMake
+ros_basic_topic_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/basic/ros_basic_topic
+
+//Value Computed by CMake
+ros_basic_topic_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_c++/basic/ros_basic_topic
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 
@@ -431,10 +455,28 @@ subpub2_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/fun
 subpub2_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_c++/function_ws/subpub2
 
 //Value Computed by CMake
-subpub_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_c++/function_ws/subpub
+subpub_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/subpub
 
 //Value Computed by CMake
-subpub_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_c++/function_ws/subpub
+subpub_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/subpub
+
+//Value Computed by CMake
+subpub_newmsg_02_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/subpub_newmsg_02
+
+//Value Computed by CMake
+subpub_newmsg_02_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/subpub_newmsg_02
+
+//Value Computed by CMake
+subpub_stdmsg_01_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/subpub_stdmsg_01
+
+//Value Computed by CMake
+subpub_stdmsg_01_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/subpub_stdmsg_01
+
+//Value Computed by CMake
+subpub_stdmsg_BINARY_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/build/ros_python/package_ws/launch_generation/01_subpub_stdmsg
+
+//Value Computed by CMake
+subpub_stdmsg_SOURCE_DIR:STATIC=/home/nvidia/ROS_Tutorials/catkin_ws/src/ros_python/package_ws/launch_generation/01_subpub_stdmsg
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
@@ -559,7 +601,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

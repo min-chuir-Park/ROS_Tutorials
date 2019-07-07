@@ -1,0 +1,7 @@
+<launch>
+
+
+	<node pkg = "subpub_stdmsg_01" type = "_publisher_node.py" name = "publisher_node"  />
+	<node pkg = "subpub_stdmsg_01" type = "_subscriber_node.py" name = "subscriber_node" output="screen" />
+
+</launch>

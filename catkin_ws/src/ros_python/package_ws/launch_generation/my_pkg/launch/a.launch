@@ -1,7 +1,0 @@
-<launch>
-
-
-	<node pkg = "my_pkg" type = "a_node.py" name = "a"  />
-
-
-</launch>

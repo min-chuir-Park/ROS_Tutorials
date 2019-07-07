@@ -15,6 +15,7 @@ catkin_package(
 catkin_install_python(PROGRAMS
    src/digging.py
    src/integration.py
+   src/driving.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

@@ -1,7 +1,0 @@
-<launch>
-
-
-	<node pkg = "my_pkg2" type = "MABX.py" name = "MABX"  />
-
-
-</launch>
